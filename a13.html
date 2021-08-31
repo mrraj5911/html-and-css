@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      * {
+        box-sizing:border-box;
+
+      }
+
+      .box{float:left;
+      width:20%;
+    padding:30px;}
+    .fix::after{
+      content:"";
+      clear:both;
+      display:table;
+    }
+    </style>
+  </head>
+  <body>
+    <h1>grid of boxes</h1>
+    <p>here im trying to grid the boxes</p>
+    <div class="fix">
+
+
+    <div class="box" style="background-color:red;">
+      <p>this is the first box </p></div>
+      <div class="box" style="background-color:green;">
+        <p>this is the second box </p></div>
+        <div class="box" style="background-color:orange;">
+          <p>this is third box</p>
+
+
+    </div>
+</div>
+  </body>
+</html>
